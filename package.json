@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --watch",
     "prod": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/tailwind.css --minify",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d ./"
   },
   "repository": {
     "type": "git",
